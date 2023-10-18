@@ -7,14 +7,14 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang='en'>
-        <body>
+        <body className='flex flex-col min-h-screen px-10 py-3'>
           <header>
             <nav>
-              <ul>
+              <ul className='flex gap-2'>
                 <li>
                   <a href='/'>Home</a>
                 </li>
-                <li>
+                <li className='ml-auto'>
                   <Link href='/works'>Works</Link>
                 </li>
                 <li>
@@ -28,8 +28,10 @@ export default function RootLayout({ children }) {
               </ul>
             </nav>
           </header>
-          <main>{children}</main>
-          <footer>&copy 2023 Sahal Nurdin | Designed by SahalN</footer>
+          <main className='py-3 grow'>{children}</main>
+          <footer className='text-center'>
+            &copy 2023 Sahal Nurdin | Designed by SahalN
+          </footer>
         </body>
       </html>
     </>
