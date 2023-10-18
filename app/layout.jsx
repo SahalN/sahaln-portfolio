@@ -4,9 +4,11 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang='en'>
-        <header>[]</header>
-        <body>{children}</body>
-        <footer>[]</footer>
+        <body>
+          <header>[]</header>
+          <main>{children}</main>
+          <footer>[]</footer>
+        </body>
       </html>
     </>
   );
