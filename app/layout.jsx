@@ -1,6 +1,7 @@
 /** @format */
 
 import Link from "next/link";
+import "./globals.css";
 
 export default function RootLayout({ children }) {
   return (
@@ -28,7 +29,7 @@ export default function RootLayout({ children }) {
             </nav>
           </header>
           <main>{children}</main>
-          <footer>[]</footer>
+          <footer>&copy 2023 Sahal Nurdin | Designed by SahalN</footer>
         </body>
       </html>
     </>
