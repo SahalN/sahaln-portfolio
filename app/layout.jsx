@@ -7,7 +7,7 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang='en'>
-        <body className='flex flex-col min-h-screen px-10 py-3'>
+        <body className='flex flex-col min-h-screen px-40 py-3'>
           <header>
             <nav>
               <ul className='flex gap-2'>
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
               </ul>
             </nav>
           </header>
-          <main className='py-3 grow'>{children}</main>
+          <main className='px-10 py-3 grow'>{children}</main>
           <footer className='text-center'>
             &copy 2023 Sahal Nurdin | Designed by SahalN
           </footer>
