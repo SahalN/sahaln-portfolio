@@ -7,12 +7,12 @@ export default function RootLayout({ children }) {
   return (
     <>
       <html lang='en'>
-        <body className='flex flex-col min-h-screen px-40 py-3'>
+        <body className='flex flex-col min-h-screen py-3 md:px-72 bg-[#F0E7DB]'>
           <header>
             <nav>
               <ul className='flex gap-2'>
                 <li>
-                  <a href='/'>Home</a>
+                  <a href='/'>Sahal Nurdin</a>
                 </li>
                 <li className='ml-auto'>
                   <Link href='/works'>Works</Link>
