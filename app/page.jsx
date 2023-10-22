@@ -1,6 +1,6 @@
 /** @format */
 
-import Header from "@/components/Header";
+import Heading from "@/components/Heading";
 
 export default function HomePage() {
   return (
@@ -10,8 +10,8 @@ export default function HomePage() {
           Hello, I’m an fullstack app developer based in Indonesia
         </p>
       </div>
-      <Header>Muhammad Sahal Nurdin</Header>
-      <p className='text-left'>
+      <Heading>Muhammad Sahal Nurdin</Heading>
+      <p className='text-left font-semibold'>
         Love to build Digital Things (Developer/3D Generalist/Designer)
       </p>
       <div className='py-3'>

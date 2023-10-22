@@ -1,11 +1,12 @@
 /** @format */
 
+import Heading from "@/components/Heading";
 import Link from "next/link";
 
 export default function WorksPage() {
   return (
     <>
-      <h1>Hello This is works page</h1>
+      <Heading>Hello This is works page</Heading>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
         reprehenderit quis placeat architecto molestiae doloremque soluta
