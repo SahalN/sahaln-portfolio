@@ -1,5 +1,7 @@
 /** @format */
 
+import Header from "../components/Header";
+
 export default function HomePage() {
   return (
     <>
@@ -8,7 +10,7 @@ export default function HomePage() {
           Hello, I’m an fullstack app developer based in Indonesia
         </p>
       </div>
-      <h1 className='text-2xl font-bold'>Muhammad Sahal Nurdin</h1>
+      <Header>Muhammad Sahal Nurdin</Header>
       <p className='text-left'>
         Love to build Digital Things (Developer/3D Generalist/Designer)
       </p>

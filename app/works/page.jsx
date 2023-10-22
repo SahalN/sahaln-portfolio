@@ -15,6 +15,9 @@ export default function WorksPage() {
         <li>
           <Link href='/works/sahalnuiux-blogs'>Sahal's UI/UX Blogs</Link>
         </li>
+        <li>
+          <Link href='/works/gameverse-chronicles'>Gameverse Chronicles</Link>
+        </li>
       </ul>
     </>
   );

@@ -1,5 +1,7 @@
 /** @format */
 
+import Header from "../../components/Header";
+
 export default function GithubPage() {
-  return <h1>Hello This is github page</h1>;
+  return <Header>Hello This is github page</Header>;
 }

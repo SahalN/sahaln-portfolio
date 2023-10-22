@@ -1,5 +1,7 @@
 /** @format */
 
+import Header from "../../components/Header";
+
 export default function BlogsPage() {
-  return <h1>Hello This is blog page</h1>;
+  return <Header>Hello This is blog page</Header>;
 }
