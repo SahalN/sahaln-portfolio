@@ -13,7 +13,10 @@ export default function RootLayout({ children }) {
           </header>
           <main className='px-10 py-3 grow'>{children}</main>
           <footer className='text-center'>
-            &copy 2023 Sahal Nurdin | Designed by SahalN
+            &copy 2023 Sahal Nurdin | Designed by{" "}
+            <a href='' className='hover:underline'>
+              SahalN
+            </a>
           </footer>
         </body>
       </html>
