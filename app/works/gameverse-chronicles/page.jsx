@@ -13,7 +13,7 @@ export default async function GameverseChronicles() {
   return (
     <>
       <Heading>Gameverse Chronicles</Heading>
-      <article dangerouslySetInnerHTML={{ __html: html }} />
+      <article dangerouslySetInnerHTML={{ __html: html }} className='prose' />
     </>
   );
 }
