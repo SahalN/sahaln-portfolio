@@ -9,11 +9,11 @@ export default async function GameverseChronicles() {
     "./content/reviews/gameverse-chronicles.md",
     "utf8"
   );
-  const html = marked(text);
+  const html = marked(text, { hederIds: false, mangle: false });
   return (
     <>
       <Heading>Gameverse Chronicles</Heading>
-      {text}
+      <article dangerouslySetInnerHTML={{ __html: html }} />
     </>
   );
 }
