@@ -11,7 +11,7 @@ export default function HomePage() {
         </p>
       </div>
       <Heading>Muhammad Sahal Nurdin</Heading>
-      <p className='text-left font-semibold'>
+      <p className='font-semibold text-left'>
         Love to build Digital Things (Developer/3D Generalist/Designer)
       </p>
       <div className='py-3'>
