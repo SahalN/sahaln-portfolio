@@ -2,6 +2,6 @@
 
 export default function Heading({ children }) {
   return (
-    <h1 className='text-[36px] font-bold font-mplusrounded1c'>{children}</h1>
+    <h1 className='text-2xl font-extrabold font-mplusrounded1c '>{children}</h1>
   );
 }

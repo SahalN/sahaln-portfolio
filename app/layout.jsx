@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
       <html
         lang='en'
         className={`${inter.variable} ${mplusrounded1c.variable}`}>
-        <body className='flex flex-col min-h-screen py-3 px-4 sm:px-36 md:px-56 xl:px-[450px] bg-[#F0E7DB]'>
+        <body className='flex flex-col min-h-screen py-3 px-4 sm:px-36 md:px-56 xl:px-[420px] bg-[#F0E7DB]'>
           <header>
             <NavBar />
           </header>
