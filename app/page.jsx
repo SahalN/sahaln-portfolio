@@ -6,7 +6,10 @@ export default function HomePage() {
   return (
     <>
       <div>
-        <p className='py-3 text-center bg-teal-400 rounded-2xl'>
+        <img src='images/Sahal.png' className='w-40 py-5 mx-auto' alt='cover' />
+      </div>
+      <div className='my-4'>
+        <p className='text-center bg-teal-400  rounded-2xl'>
           Hello, I’m an fullstack app developer based in Indonesia
         </p>
       </div>

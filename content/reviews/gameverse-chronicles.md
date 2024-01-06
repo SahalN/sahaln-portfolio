@@ -1,16 +1,13 @@
 ---
 title: "Gameverse Chronicle"
 date: "2023-05-04"
-image: "/images/"
+image: "/images/ombak.jpg"
 ---
 
 <!-- @format -->
 
 # Ulasan Website Blog "Nama Website Blog"
 
-![Gambar Header Website](link-gambar-header.jpg)
-
-Ini adalah ulasan saya tentang [Nama Website Blog](https://www.namawebsiteblog.com), sebuah blog yang menawarkan konten informatif dan menarik dalam berbagai topik.
 
 ## Desain dan Tampilan
 
@@ -36,4 +33,4 @@ Nama Website Blog menyediakan berbagai artikel dan tulisan tentang berbagai topi
 
 Dalam keseluruhan, Nama Website Blog adalah sumber informasi yang berharga dan menghibur. Dengan beberapa perbaikan kecil, situs ini dapat menjadi destinasi yang lebih baik bagi para pembaca. Jika Anda mencari konten berkualitas dalam berbagai topik, Anda pasti akan menemukan sesuatu yang Anda sukai di sini.
 
-![Tanda Tangan](link-gambar-tanda-tangan.jpg)
+
