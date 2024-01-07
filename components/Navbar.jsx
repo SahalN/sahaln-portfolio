@@ -6,9 +6,11 @@ export default function NavBar() {
   return (
     <>
       <nav>
-        <ul className='flex gap-2 mt-3'>
+        <ul className='flex items-center gap-2 mt-3'>
           <li>
-            <Link href='/' className='hover:underline font-mplusrounded1c'>
+            <Link
+              href='/'
+              className='text-xl font-bold hover:underline font-mplusrounded1c '>
               Sahal Nurdin
             </Link>
           </li>

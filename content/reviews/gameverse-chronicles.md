@@ -8,7 +8,6 @@ image: "/images/ombak.jpg"
 
 # Ulasan Website Blog "Nama Website Blog"
 
-
 ## Desain dan Tampilan
 
 Website blog ini memiliki desain yang menarik dan tampilan yang bersih. Desain responsif memastikan bahwa situs ini dapat diakses dengan baik dari perangkat apa pun, termasuk ponsel dan tablet. Warna-warna yang digunakan juga sangat menyenangkan mata, dan tata letaknya mudah dinavigasi.
@@ -32,5 +31,3 @@ Nama Website Blog menyediakan berbagai artikel dan tulisan tentang berbagai topi
 ## Kesimpulan
 
 Dalam keseluruhan, Nama Website Blog adalah sumber informasi yang berharga dan menghibur. Dengan beberapa perbaikan kecil, situs ini dapat menjadi destinasi yang lebih baik bagi para pembaca. Jika Anda mencari konten berkualitas dalam berbagai topik, Anda pasti akan menemukan sesuatu yang Anda sukai di sini.
-
-

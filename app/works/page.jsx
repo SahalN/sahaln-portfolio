@@ -7,11 +7,7 @@ export default function WorksPage() {
   return (
     <>
       <Heading>Hello This is works page</Heading>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo
-        reprehenderit quis placeat architecto molestiae doloremque soluta
-        corrupti labore, dolorem laborum.
-      </p>
+      <p>This is my recent works.</p>
       <ul>
         <li>
           <Link href='/works/sahalnuiux-blogs'>Sahal's UI/UX Blogs</Link>

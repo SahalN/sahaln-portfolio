@@ -1,23 +1,25 @@
 /** @format */
 
 import Heading from "@/components/Heading";
-import { marked } from "marked";
-import matter from "gray-matter";
-import { readFile } from "node:fs/promises";
+import { getWork } from "@/lib/works";
 
 export default async function GameverseChronicles() {
-  const text = await readFile(
-    "./content/reviews/gameverse-chronicles.md",
-    "utf8"
-  );
-  const {content, data:{title, date, image}} = matter(text);
-  const html = marked(content, { headerIds: false, mangle: false });
+  const work =  async getWork("gameverse-chronicles")
   return (
     <>
-      <Heading>{title}</Heading>
-      <p>{date}</p>
-      <img src={image} alt="" width="640px" height="360" />
-      <article dangerouslySetInnerHTML={{ __html: html }} className='prose max-w-screen prose-slate' />
+      <Heading className='m-2'>{title}</Heading>
+      <p className='pb-2 italic'>{date}</p>
+      <img
+        src={image}
+        alt='image'
+        width='640px'
+        height='360'
+        className='object-contain pb-5 bg-no-repeat bg-cover rounded-xl'
+      />
+      <article
+        dangerouslySetInnerHTML={{ __html: html }}
+        className='pb-2 prose max-w-screen prose-slate'
+      />
     </>
   );
 }
